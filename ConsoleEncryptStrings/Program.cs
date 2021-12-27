@@ -7,7 +7,8 @@ namespace ConsoleEncryptStrings
     {
         static string StringToEncrypt { get; set; }
         static string StringToDecrypt { get; set; }
-        static string EncryptionKey = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        //static string EncryptionKey = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        static string EncryptionKey = "Security";
         static void Main()
         {
             GetEncryptedValue();
