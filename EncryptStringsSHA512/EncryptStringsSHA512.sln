@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptStringsSHA512", "EncryptStringsSHA512.csproj", "{CCF00C02-FCFF-40B2-A2E0-29F45E02D539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEncryptStringsSHA512", "..\ConsoleEncryptStringsSHA512\ConsoleEncryptStringsSHA512.csproj", "{352AEA36-8C55-4B4B-9F43-47E9D34B14BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCF00C02-FCFF-40B2-A2E0-29F45E02D539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF00C02-FCFF-40B2-A2E0-29F45E02D539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF00C02-FCFF-40B2-A2E0-29F45E02D539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF00C02-FCFF-40B2-A2E0-29F45E02D539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352AEA36-8C55-4B4B-9F43-47E9D34B14BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352AEA36-8C55-4B4B-9F43-47E9D34B14BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352AEA36-8C55-4B4B-9F43-47E9D34B14BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352AEA36-8C55-4B4B-9F43-47E9D34B14BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DAE9EB9-37D6-449D-B223-E79AFEA02B66}
+	EndGlobalSection
+EndGlobal
