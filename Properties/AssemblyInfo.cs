@@ -6,10 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EncryptStrings")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Basic String Encryption")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EncryptStrings")]
+[assembly: AssemblyCompany("Ron Smith")]
+[assembly: AssemblyProduct("Security")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>EncryptDecryptStrings</id>
+    <version>1.0</version>
+    <title>Encrypt Decrypt Strings</title>
+    <authors>Ron Smith</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <!-- <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl> -->
+    <description>This is a basic string encryptor / decryptor</description>
+    <releaseNotes>Initial Rollout</releaseNotes>
+    <copyright>Copyright 2022</copyright>
+    <tags>Security Encryption</tags>
+  </metadata>
+</package>
