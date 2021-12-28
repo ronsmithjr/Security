@@ -8,7 +8,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <!-- <icon>icon.png</icon> -->
-    <!-- <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl> -->
+    <projectUrl>https://github.com/ronsmithjr/Security</projectUrl>
     <description>This is a basic string encryptor / decryptor</description>
     <releaseNotes>Adding Documentation and Updating Security Key Logic</releaseNotes>
     <copyright>Copyright 2022</copyright>
