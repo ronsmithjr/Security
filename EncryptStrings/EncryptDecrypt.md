@@ -2,7 +2,7 @@
 #EncryptDecrypt
 
 ### You can use the following example code ().NET4.7 Console Application) to generate matching encrypt/decrypt keys for your password
-#### You are going add in your own exception handling
+#### You are going to have to add in your own exception handling
 
 
 `
