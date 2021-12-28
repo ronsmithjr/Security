@@ -1,9 +1,12 @@
-﻿using EncryptStrings;
-using System;
 
-namespace ConsoleEncryptStrings
-{
-    class Program
+#EncryptDecrypt
+
+### You can use the following example code ().NET4.7 Console Application) to generate matching encrypt/decrypt keys for your password
+#### You are going add in your own exception handling
+
+
+`
+class Program
     {
         static string StringToEncrypt { get; set; }
         static string StringToEncryptKey { get; set; }
@@ -53,5 +56,5 @@ namespace ConsoleEncryptStrings
             Console.WriteLine($"Decrypted String is {decryptedString}");
             Console.WriteLine("-------------------------------------------------------------");
         }
-    }
-}
+    
+`

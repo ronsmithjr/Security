@@ -5,12 +5,21 @@ using System.Text;
 
 namespace EncryptStrings
 {
+    /// <summary>
+    /// *****2 things of note*****
+    /// 1. The encrypt and decrypt need the same key in order to function properly
+    /// 2. You have to create a front end in order to get the same key/passord pair for the encryption and decryption methods.
+    /// </summary>
     public static class EncryptDecrypt
     {
+        /// <summary>
+        /// Encrypts a string
+        /// </summary>
+        /// <param name="encryptString">String to Encrypt</param>
+        /// <param name="encryptionKey">Key to use to encrypt the string</param>
+        /// <returns></returns>
         public static string Encrypt(this string encryptString, string encryptionKey)
         {
-            //string EncryptionKey = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
             byte[] clearBytes = Encoding.Unicode.GetBytes(encryptString);
             using (Aes encryptor = Aes.Create())
             {
@@ -31,10 +40,14 @@ namespace EncryptStrings
             }
             return encryptString;
         }
-
+        /// <summary>
+        /// Decrypts a string
+        /// </summary>
+        /// <param name="cipherText">string to decrypt</param>
+        /// <param name="encryptionKey">String to use to decrypt the string</param>
+        /// <returns></returns>
         public static string Decrypt(this string cipherText, string encryptionKey)
         {
-            //string EncryptionKey = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             cipherText = cipherText.Replace(" ", "+");
             byte[] cipherBytes = Convert.FromBase64String(cipherText);
             using (Aes encryptor = Aes.Create())
