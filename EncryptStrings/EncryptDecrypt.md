@@ -8,6 +8,7 @@
 `
 class Program
     {
+        
         static string StringToEncrypt { get; set; }
         static string StringToEncryptKey { get; set; }
         static string StringToDecrypt { get; set; }
